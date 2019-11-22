@@ -1,12 +1,46 @@
-table,
+#page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.div-tabela {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+}
+
+.tabela {
+    width: 75%;
+    height: 100%;
+}
+
+.tabela,
 th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-th,
+.tabela th,
 td {
+    font-size: 15px;
     padding: 25px;
-    text-align: left;
+    text-align: center;
 }
