@@ -1,6 +1,6 @@
 .vertical-menu {
-    width: 200px;
-    /* Set a width if you like */
+    width: 150px;
+    height: 100%;
 }
 
 .vertical-menu a {
